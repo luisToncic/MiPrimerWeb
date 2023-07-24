@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Web sin JS</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="cubosita.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <!--para poner la fuente de las flechas y logos -->    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+
+<body>
+    
+    <header> <!--header.css -->
+        <div class="nav">
+            <a class="nav-logo" href="index.html" title="Inicio" tabindex="1">
+                <p>FANTASIANAME</p>
+            </a>
+            <ul class="lista">
+                <li class="buscador">
+                    <form>
+                        <input class="busq" type="text" placeholder="Buscar" tabindex="2" required>
+                        <button class="lupita"><i class='bx bx-search-alt'></i></button>
+                    </form>
+                </li>
+                <li class="pipe"></li> <!--Separador-->
+                <li class="sociales_menu">
+                    <a class="login" href="login.html" title="Log in" tabindex="3"><i class='bx bxs-user-account bx-md bx-border-circle bx-burst-hover' ></i><p>ACCEDER</p></a>
+                </li>
+                <li class="pipe"></li> <!--Separador-->
+                <li class="sociales-menu">
+                    <a class="facebook" href="https://www.facebook.com/luigifredy.langley" title="Facebook" tabindex="4" target="_blank"><i class='bx bxl-facebook-circle bx-md bx-border-circle bx-tada-hover'></i></a>
+                </li>
+                <li class="sociales-menu">
+                    <a class="instagram" href="https://www.instagram.com/elpand4s/" title="Instagram" tabindex="5" target="_blank"><i class='bx bxl-instagram-alt bx-md bx-border-circle bx-tada-hover'></i></a>
+                </li>
+                <li class="sociales-menu">
+                    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5491124989099&amp;text=Que%20haces?" title="Whatsapp" tabindex="6" target="_blank"><i class='bx bxl-whatsapp-square bx-md bx-border-circle bx-tada-hover' ></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="titular">
+            <h1>Mi primer web</h1>
+            <h2>HTML - CSS</h2>
+        </div>
+    </header>
+
+
+    <!--slider -> cubosita.css -->
+    <div class="contenedorCubo">
+        <a class="lado" id="lado_a" href="https://www.aorus.com/es-ar"></a><!--aorus -->
+        <a class="lado" id="lado_b"href="https://www.corsair.com/lm/es/"></a><!--corsair -->
+        <a class="lado" id="lado_c"href="https://www.coolermaster.com/"></a><!--cooler -->
+        <a class="lado" id="lado_d"href="https://www.asus.com/ar/"></a><!--asus -->
+        
+        <div class="lado2" id="lado_e"></div>
+        <div class="lado2" id="lado_f"></div>
+    </div>
+
+
+
+    <main>
+        <h3>ÚLTIMAS NOVEDADES</h3>
+        <div class="contenedor-lastNews">
+            <div class="lastNew violeta">
+            <h4>Mother ASUS PRIME A520M-K AM4</h4>
+            <p>
+                Cantidad De Slot Pci-e 16X
+                1 <br>
+                Cantidad De Slot Pci-e 1X
+                2 <br>
+                Puertos Sata
+                4 <br>
+                Salidas Vga
+                1 <br>
+                Salidas Hdmi
+                1 <br>
+                Cantidad De Slot M.2 Totales
+                1 <br>
+                Placa Wifi Integrada
+                No <br>
+                Placa De Red
+                1 Gb/s <br>
+                Puerto Ps/2
+                Si <br>
+                Puertos Usb
+                6 <br>
+                Cantidad De Slot M.2 Nvme
+                1 <br>
+            </p>
+            <img src="img/last1_Mother.png">
+            <a href="https://compragamer.com/producto/Mother_ASUS_PRIME_A520M_K_AM4_10578">Leer más <i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+            <div class="lastNew celeste">
+                <h4>Memoria GeiL DDR4 16GB 3000MHz Super Luce RGB Black</h4>
+                <p>
+                    Capacidad
+                    16 gb <br>
+                    Velocidad
+                    3000 mhz<br>
+                    Tipo
+                    DDR4<br>
+                    Cantidad De Memorias
+                    1<br>
+                    Latencia
+                    16 cl<br>
+                    Voltaje
+                    1.35 v<br>
+                    Disipador
+                    Si<br>
+                    Tipo Sodimm
+                    No<br> <br><br>
+                </p>
+                <img src="img/last2_Mem.png">
+                <a href="https://compragamer.com/producto/Memoria_GeiL_DDR4_16GB_3000MHz_Super_Luce_RGB_Black_9542">Leer más <i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+            <div class="lastNew violeta">
+                <h4>Auriculares HyperX Cloud Flight Black Wireless</h4>
+                <p>
+                    Audio
+                    2<br>
+                    Colores
+                    Negro<br>
+                    Conexión
+                    Inalámbrico<br>
+                    Con Micrófono
+                    Si<br>
+                    Tipo De Audio
+                    Real<br>
+                    Tipo
+                    Headset<br>
+                    Impedancia
+                    32 Ω<br>
+                </p>
+                <img src="img/last3_auri.png">
+                <a href="https://compragamer.com/producto/Auriculares_HyperX_Cloud_Flight_Black_Wireless_11298?gclid=CjwKCAiA-dCcBhBQEiwAeWidte0ASZgQtbp-_ldf8WVN9wZUNcSqEzKPpcOcA5EWypuw_RaxbikYIhoCqD8QAvD_BwE">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </main>   
+
+
+    <footer>
+        <section id="que-esperas">
+            <div class="contenedor">
+                <h2>¿Que esperás para tener tu página web?</h2>
+                <a>CHARLEMOS</a>
+            </div>
+        </section>
+        <section id="whatsapp">
+            <a href="https://wa.me/5491124989099">
+                <img src="img/whatsapp.png">
+            </a>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+}
+.nav-logo{
+    color: white;
+    margin-left: 20px;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista{
+    display: flex;
+}
+
+.sociales-menu{ 
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+.buscador{
+    margin-top: 25px;
+    margin-right: 7px;
+    position: relative;
+}
+.busq{
+    font-size: 22px;
+    height: 35px;
+}
+.lupita{
+    font-size: 22px;
+    height: 40px;
+}
+
+.pipe { /*separador*/
+    border-right: 1px solid #2070a3;
+    padding-right: 5px;
+    margin-right: 10px;
+    padding-top: 46px;
+    margin-top: 15px;
+}
+
+.login{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bxs-user-account:hover{
+    color: rgb(255, 203, 0);
+    cursor: pointer;
+}
+.login:hover{
+    color: rgb(255, 203, 0);
+    cursor: pointer;
+}
+
+/*animaciones iconos redes sociales*/
+.bxl-facebook-circle:hover{
+    color: rgb(255, 203, 0);
+    cursor: pointer;
+}
+.bxl-instagram-alt:hover{
+    color: rgb(255, 203, 0);
+    cursor: pointer;
+}
+.bxl-whatsapp-square:hover{
+    color: rgb(255, 203, 0);
+    cursor: pointer;
+}
+
+.titular{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+} 
